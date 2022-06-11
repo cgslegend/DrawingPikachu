@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>动态绘制皮卡丘</title>
+    <link rel="stylesheet" href="style.css">
+    <style id="write"></style>
+</head>
+<body>
+<div class="codeWrapper">
+        <pre id="code"></pre>
+</div>
+<div class="buttons">
+    <button data-speed="slow">慢速</button>
+    <button data-speed="normal" class="active">中速</button>
+    <button data-speed="fast">快速</button>
+    <button data-speed="refresh">重播</button>
+</div>
+<div class="pikaWrapper">
+<div class="pikachu">
+    <div class="eye">
+        <div class="eyeL"></div>
+        <div class="eyeR"></div>
+    </div>
+
+    <div class="nose">
+    </div>
+    <div class="mouth">
+        <div class="mouthDown">
+            <div class="lipB"></div>
+        </div>
+        <div class="mouthUp">
+            <div class="lipL"></div>
+            <div class="lipR"></div>
+        </div>
+
+    </div>
+    <div class="ball">
+        <div class="ballL"></div>
+        <div class="ballR"></div>
+    </div>
+</div>
+</div>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
